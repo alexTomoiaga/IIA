@@ -1,0 +1,8 @@
+(put-in p5 l1)
+(move l1 l2)
+(put-in p1 l2)
+(move l2 l3)
+(put-in p2 l3)
+(take-out p5)
+(move l3 l1)
+; cost = 7 (unit cost)
